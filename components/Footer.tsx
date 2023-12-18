@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 
 import { LogoIcon, FooterSvg } from "../assets";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -86,7 +87,7 @@ const Footer = () => {
         <div className="mx-6 py-5 lg:py-10 text-center md:text-left">
           <div className="grid grid-1 justify-items-stretch md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="">
-              <a
+              <Link
                 href="#"
                 className="uppercase font-semibold mb-2 lg:mb-4 flex items-center justify-center md:justify-start"
               >
@@ -98,7 +99,7 @@ const Footer = () => {
                   height={30}
                   placeholder="blur"
                 />
-              </a>
+              </Link>
               <p className="md:dark:text-white">
               Digging Deep, Building Bright
               </p>
@@ -108,24 +109,24 @@ const Footer = () => {
                 Useful links
               </h3>
               <p className="mb-2 lg:mb-4">
-                <a href="/#Hero" className="text-white md:dark:text-white">
+                <Link href="/#Hero" scroll={false} className="text-white md:dark:text-white">
                   Home
-                </a>
+                </Link>
               </p>
               <p className="mb-2 lg:mb-4">
-                <a href="/#Products" className="text-white md:dark:text-white">
+                <Link href="/#Products" scroll={false} className="text-white md:dark:text-white">
                   Products
-                </a>
+                </Link>
               </p>
               <p className="mb-2 lg:mb-4">
-                <a href="/#Services" className="text-white md:dark:text-white">
+                <Link href="/#Services" scroll={false} className="text-white md:dark:text-white">
                   Services
-                </a>
+                </Link>
               </p>
               <p>
-                <a href="/about" className="text-white md:dark:text-white">
+                <Link href="/about" scroll={false} className="text-white md:dark:text-white">
                   About us
-                </a>
+                </Link>
               </p>
             </div>
             <div className="justify-self-center">
