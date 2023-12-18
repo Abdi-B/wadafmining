@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:svgjs="http://svgjs.com/svgjs" width="1440" height="560" preserveAspectRatio="none" viewBox="0 0 1440 560">
+    <g mask="url(&quot;#SvgjsMask1005&quot;)" fill="none">
+        <rect width="1440" height="560" x="0" y="0" fill="#0e2a47"></rect>
+        <path d="M1720.58 375.75C1601.26 378.22 1516.81 546.79 1271.68 538.15 1026.56 529.51 991.97 38.72 822.79-19.87"
+            stroke="rgba(209, 128, 98, 0.5)" stroke-width="2"></path>
+        <path d="M1716.83 402.19C1535.5 400.34 1302.78 215.25 1018.44 206.19 734.09 197.13 775.67-29.98 669.24-42.22"
+            stroke="rgba(209, 128, 98, 0.5)" stroke-width="2"></path>
+        <path d="M1543.94 126.98C1406.25 129.97 1291.74 318.75 1026.98 317.38 762.22 316.01 674.57-77.11 510.02-102.41"
+            stroke="rgba(209, 128, 98, 0.5)" stroke-width="2"></path>
+        <path
+            d="M1508.82 393.92C1410.4 393.64 1315.12 323.92 1121.41 323.92 927.71 323.92 954 407.18 734 393.92 514 380.66 493.75-44.05 346.59-96.61"
+            stroke="rgba(209, 128, 98, 0.5)" stroke-width="2"></path>
+        <path d="M1519.33 394.39C1331.58 391.38 1184.22 166.54 806.01 159.19 427.81 151.84 283.24-105.44 92.7-109.86"
+            stroke="rgba(209, 128, 98, 0.5)" stroke-width="2"></path>
+    </g>
+    <defs>
+        <mask id="SvgjsMask1005">
+            <rect width="1440" height="560" fill="#ffffff"></rect>
+        </mask>
+    </defs>
+</svg>

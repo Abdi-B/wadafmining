@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://wadafmining-jona-max.vercel.app/api/sitemap
