@@ -135,7 +135,7 @@ const Hero = () => {
                     </svg>
                     <span className="relative">Mining</span>
                   </span>{" "}
-                  With Purpose Wadaf Ethiopia Mining PLC11 Commitment To Responsible{" "}
+                  With Purpose Wadaf Ethiopia Mining PLC Commitment To Responsible{" "}
                   <span className="animate-text bg-gradient-to-r from-eternity-500 via-violet-500 to-blue-500 bg-clip-text text-transparent">
                     {text}
                   </span>
