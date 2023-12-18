@@ -2,7 +2,7 @@ import nodemailer from "nodemailer";
 import { google } from "googleapis";
 import createMail from "../../utils/createMail";
 
-const redirectUri = "https://wadafmining5.vercel.app";
+const redirectUri = "https://wadafmining5.vercel.app/#Contact";
 // const redirectUri = "https://developers.google.com/oauthplayground";
 // const redirectUri = "http://localhost:3000/#Contact";
 const appEmailAddress = "abdibacha67@gmail.com";
