@@ -6,10 +6,6 @@ const Contact = () => {
   const phone = useRef<HTMLInputElement>(null);
   const message = useRef<HTMLTextAreaElement>(null);
 
-  // const name = useRef();
-  // const email = useRef<HTMLInputElement>(null);
-  // const phone = useRef<HTMLInputElement>(null);
-  // const message = useRef<HTMLTextAreaElement>(null);
 
   const onSubmitHandler = async (e: any) => {
     e.preventDefault();
@@ -24,7 +20,7 @@ const Contact = () => {
 
     // let data = {name, email, phone, message}
 
-    await fetch("/api/contact", {
+    await fetch("/api/contact12", {
       method: "POST",
       headers: {
         Accept: "application/json, text/plain, */*",

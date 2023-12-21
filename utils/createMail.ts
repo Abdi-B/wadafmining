@@ -327,7 +327,7 @@ const createMail = ({ name, phone, message, email }: createMailI) => {
                                       "
                                     >
                                       <strong
-                                        >Message Sent To Wadaf Mining PLC!</strong
+                                        >Message Sent To Wadaf Ethiopia Mining PLC!</strong
                                       >
                                     </h1>
                                   </td>

@@ -25,7 +25,7 @@ export default async function contactHandler(req: any, res: any) {
     let transporter = nodemailer.createTransport({
       service: 'Gmail',
       auth: {
-        user: appEmailAddress,
+        user: email1,
         pass: pass,
       },
       tls: {
