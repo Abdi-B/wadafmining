@@ -4,6 +4,8 @@ import Services from "../components/Services";
 // import Teams from "../components/Teams";
 import Products from "../components/Products";
 import Contact from "../components/Contact";
+import { LogoIcon } from "../assets";
+import Logo from "../assets/icons/Logo.png"
 
 import { motion } from "framer-motion";
 export default function Home() {
@@ -11,7 +13,7 @@ export default function Home() {
     <>
       <Head>
         <title>
-          Wadaf Mining Providing a Sustainable Future for the Mining Industry.
+          {/* Wadaf Ethiopia Mining PLC  */}
         </title>
         <meta
           name="description"
@@ -20,7 +22,7 @@ export default function Home() {
         />
         <meta
           name="keywords"
-          content="Mining ethiopia mining in ethiopia best mining company in ethiopia"
+          content="Wadaf Ethiopia Mining PLC is one of the the best mining company in ethiopia"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -53,7 +55,7 @@ export default function Home() {
           property="og:image"
           content="https://lh3.googleusercontent.com/pw/AL9nZEWIr8u1k-M4cRypDty47o_kE3THboG5pM9r3cRt_Wtxi0qt0CcfRnCMnKHc4SDQUz-mK5ScOM2DhenE1e6d3mElc1V22ZKuntrIEoHM1Wdtzbgo75nFsy_gK5IFXCSMHW2WclKDkTjAbMvPvVmgTYo=w1219-h650-no?authuser=0"
         />
-        <meta property="og:url" content="https://wadafmining.vercel.app/" />
+        <meta property="og:url" content="https://wadafmining5.vercel.app/" />
         <meta property="og:type" content="website" />
         {/*<!-- Facebook Meta Tags -->*/}
 
@@ -73,7 +75,10 @@ export default function Home() {
         />
         <meta name="twitter:card" content="Wadaf Mining PLC" />
         {/*<!-- Twitter Meta Tags -->*/}
-        <link rel="icon" href="/favicon.ico" />
+        {/* <link rel="icon" href="/favicon.ico" /> */}
+        <link rel="icon" href="/Logo.png" />
+        {/* <link rel="icon" href="../assets/icons/Logo.png" /> */}
+        
       </Head>
 
       <div>

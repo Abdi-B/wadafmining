@@ -64,6 +64,7 @@ const Hero = () => {
       >
         <Image
           src={currentSlide.src}
+          // src={slides[0].src}
           className="w-full flex-shrink-0 object-cover h-full absolute inset-0 bg-pink-500 text-white flex items-center justify-center text-5xl transform duration-500"
           alt="carousel"
           fill
@@ -74,7 +75,7 @@ const Hero = () => {
       <motion.div>
         <div className="px-5 py-3 mx-auto sm:max-w-full md:max-w-full lg:max-w-screen-x lg:py-40 relative bg-gradient-to-r from-shadowDefault to-shadowDefault">
           <div className="max-w-xl sm:mx-auto lg:max-w-3xl">
-            <div className="flex flex-col items-center mt-20 mb-16 sm:text-center sm:mb-0 sm:mt-0">
+            <div className="flex flex-col items-center text-center mt-20  mb-16  sm:mb-0 sm:mt-10 lg:mt-0">
               {/* <div className="flex items-center justify-center w-12 h-12 rounded-full bg-teal-accent-400 mb-6 sm:mx-auto">
               
                 <svg
@@ -93,7 +94,7 @@ const Hero = () => {
                 </svg>
               </div> */}
 
-              <div className="max-w-xl  mb-6   md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
+              <div className="max-w-xl mx-auto     md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
                 <motion.h1
                   initial={{
                     x: -1000,
@@ -184,6 +185,7 @@ const Hero = () => {
             <hr className="w-40 border-1 border-gray-200 ml-2" />
           </div>
           <motion.div
+          
             initial={{
               y: 100,
               opacity: 0,
