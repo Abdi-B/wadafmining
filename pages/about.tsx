@@ -11,20 +11,21 @@ const about = () => {
 
         <Image
           src={HeroCar6}
-          className="w-full object-cover h-full"
+          className="w-full object-cover h-full "
           alt="carousel"
           fill
           placeholder="blur"
         />
 
-        <div className="flex justify-center flex-col items-center h-full relative">
-          <h1 className="font-bold text-center text-xl md:text-2xl lg:text-3xl text-white">
+        <div className="flex justify-center flex-col items-center h-full w-full relative opacity-8">
+          <h1 className="font-bold text-center  text-2xl md:text-2xl lg:text-3xl text-white">
           Digging Deep, Building Bright!
           </h1>
-          <p className="font-medium text-center text-xl md:text-xl lg:text-2xl text-white mt-2 w-full px-2 sm:w-full md:w-1/2 lg:w-1/2">
-            At Wadaf Ethiopia Mining PLC, we strive to revolutionize the mining industry by
-            democratizing access and empowering individuals. Our mission is to
-            drive change and make a positive impact on those in the field.
+          <p className="font-medium  text-justify text-xl md:text-xl lg:text-2xl text-white mt-5 w-full px-4 sm:w-full md:w-3/4 lg:w-3/4">
+              Wadaf Ethiopia Mining PLC is a pioneering force in responsible resource extraction, blending innovation 
+              with a commitment to sustainability. Our ethos revolves around cutting-edge technology, ethical 
+              practices, and community welfare, aiming to set higher industry standards. With a focus on 
+              environmental preservation and social responsibility, we're reshaping mining for a prosperous, ethical future. 
           </p>
         </div>
       </div>
@@ -43,7 +44,7 @@ const about = () => {
             <div className="ml-10 text-dark dark:text-white">
               <div>
                 <p className="font-bold text-xl">Mr. Gemeda Worku</p>
-                <p className="italic"> CEO of Wadaf Ethiopia Mining PLC</p>
+                <p className="italic "> CEO of Wadaf Ethiopia Mining PLC</p>
               </div>
               <div className="flex justify-left mt-4">
                 <a
@@ -181,11 +182,11 @@ const about = () => {
             Our Objectives
           </h2>
           <p className="px-5 lg:w-2/3 text-center dark:text-white">
-            At Moove, we are a team dedicated to our mission to drive
-            productivity and success for the world’s mobility entrepreneurs by
-            democratizing access to vehicle ownership. Our values embody
-            everything we do, as they not only help us be the best employees for
-            one another, but also for our customers.
+          Our objective at Wadaf Ethiopia Mining PLC is to become a leading global player in the extraction and 
+          production of valuable minerals while maintaining the highest standards of safety, 
+          sustainability, and ethical practices. We aim to optimize operational efficiency, 
+          embrace technological advancements, and foster positive relationships with stakeholders 
+          to drive long-term growth and create lasting value for our shareholders, employees, and the communities in which we operate.
           </p>
         </div>
 

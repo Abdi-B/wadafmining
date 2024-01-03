@@ -30,9 +30,9 @@ const Hero = () => {
 
   const [text, count] = useTypewriter({
     words: [
-      "Extraction In Ethiopia.",
+      "Machine Rent In Ethiopia.",
       "Mining In Ethiopia.",
-      "Construction In Ethiopia.",
+      "Transportation Rental In Ethiopia.",
     ],
     loop: true,
     delaySpeed: 1500,
@@ -94,7 +94,7 @@ const Hero = () => {
                 </svg>
               </div> */}
 
-              <div className="max-w-xl mx-auto     md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
+              <div className="max-w-xl mx-auto  w-4/5   md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
                 <motion.h1
                   initial={{
                     x: -1000,
@@ -109,7 +109,7 @@ const Hero = () => {
                   transition={{
                     duration: 1.5,
                   }}
-                  className="mb-6  font-sans font-bold leading-none tracking-tight text-white text-xl sm:text-3xl lg:text-3xl md:mx-auto"
+                  className="mb-6  font-sans font-bold leading-none tracking-tight text-white text-2xl sm:text-3xl lg:text-3xl md:mx-auto"
                 >
                   <span className="relative inline-block">
                     <svg
@@ -155,7 +155,7 @@ const Hero = () => {
                   transition={{
                     duration: 1.5,
                   }}
-                  className="text-white md:text-lg lg:text-xl"
+                  className="text-white text-md md:text-lg lg:text-xl"
                 >
                   Wadaf Ethiopia Mining PLC is a mining company that operates in Ethiopia, dedicated
                   to extracting valuable minerals and resources while
@@ -163,7 +163,7 @@ const Hero = () => {
                   responsibility.
                 </motion.p>
               </div>
-              <div>
+              {/* <div>
                 <motion.a
                   whileHover={{
                     scale: 1.1,
@@ -174,7 +174,7 @@ const Hero = () => {
                 >
                   Contact Us
                 </motion.a>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="flex w-full justify-center items-center mt-10">

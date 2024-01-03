@@ -9,18 +9,18 @@ const Footer = () => {
     <div className="w-full relative bg-gradient-to-r from-gray-800 via-gray-900 to-gray-900">
       {/* <Image src={FooterSvg} alt="hero image" fill /> */}
       <footer className="text-center w-full lg:text-left text-white relative">
-        <div className="flex justify-center items-center lg:justify-between p-6 border-b border-gray-300">
-          <div className="mr-12 hidden lg:block md:dark:text-white">
+        <div className="flex justify-center items-center md:justify-center  p-6 border-b border-gray-300">
+          <div className="mr-12 hidden lg:block md:dark:text-white md:block">
             <span>Get connected with us on social networks:</span>
           </div>
           <div className="flex justify-center">
-            <a href="#!" className="mr-6 text-white md:dark:text-white">
+            <a href="#!" className="mr-6  text-white md:dark:text-white">
               <svg
                 aria-hidden="true"
                 focusable="false"
                 data-prefix="fab"
                 data-icon="facebook-f"
-                className="w-2.5"
+                className="w-2.5 "
                 role="img"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 320 512"
@@ -216,9 +216,9 @@ const Footer = () => {
           </span>
           <a
             className="text-gray-900 font-semibold dark:text-eternity-500"
-            href="https://wadafmining-jona-max.vercel.app/"
+            href="https://wadafmining5.vercel.app/"
           >
-            Wadaf Ethiopia Mining PLC. All Rights Reserved.
+            Wadaf Ethiopia Mining PLC. All Rights Reserved. <br/><i> Designed and Developed by Abdi Bacha</i>
           </a>
         </div>
       </footer>

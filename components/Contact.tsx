@@ -43,11 +43,11 @@ const Contact = () => {
   return (
     <section
       id="Contact"
-      className="px-2 relative z-10 overflow-hidden bg-white py-20 lg:py-[100px] mt-2 dark:bg-backgroundDefault"
+      className="px-2 relative z-10 overflow-hidden py-20 lg:py-[100px] mt-2 dark:bg-backgroundDefault"
     >
-      <div className="container mx-auto">
-        <div className="-mx-4 flex flex-wrap lg:justify-between">
-          <div className="w-full px-4 lg:w-1/2 xl:w-6/12">
+      <div className="container mx-auto flex flex-row justify-center">
+        <div className="mx-10 flex flex-wrap lg:justify-between w-full ">
+          <div className="w-auto px-4 mx-5 lg:w-1/2 xl:w-6/12 ">
             <div className="mb-12 max-w-[570px] lg:mb-0">
               <h2 className="text-dark mb-6 text-[32px] font-bold uppercase sm:text-[40px] lg:text-[36px] xl:text-[40px] dark:text-white">
                 Contact Us
@@ -124,7 +124,7 @@ const Contact = () => {
               </div>
             </div>
           </div>
-          <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
+          <div className="w-full md:w-4/5 px-4 lg:w-1/2 xl:w-5/12">
             <div className="relative rounded-md bg-white dark:bg-foregroundDefault p-8 shadow-lg sm:p-12">
               <form>
                 <div className="mb-6">
