@@ -25,7 +25,7 @@ const about = () => {
               Wadaf Ethiopia Mining PLC is a pioneering force in responsible resource extraction, blending innovation 
               with a commitment to sustainability. Our ethos revolves around cutting-edge technology, ethical 
               practices, and community welfare, aiming to set higher industry standards. With a focus on 
-              environmental preservation and social responsibility, we're reshaping mining for a prosperous, ethical future. 
+              environmental preservation and social responsibility, we are reshaping mining for a prosperous, ethical future. 
           </p>
         </div>
       </div>
