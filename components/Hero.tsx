@@ -163,18 +163,7 @@ const Hero = () => {
                   responsibility.
                 </motion.p>
               </div>
-              {/* <div>
-                <motion.a
-                  whileHover={{
-                    scale: 1.1,
-                    boxShadow: "10px 13px 5px -3px rgba(0, 0, 0, 0.3)",
-                  }}
-                  href="#Contact"
-                  className="inline-flex rounded-2xl items-center justify-center h-12 px-10 font-semibold tracking-wide text-white transition duration-200 shadow-md hover:text-white bg-gradient-to-r from-eternity-500 to-blue-500 hover:bg-eternity-800 focus:shadow-outline focus:outline-none"
-                >
-                  Contact Us
-                </motion.a>
-              </div> */}
+              
             </div>
           </div>
           <div className="flex w-full justify-center items-center mt-10">
