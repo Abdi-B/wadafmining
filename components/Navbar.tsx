@@ -62,15 +62,15 @@ function Navbar() {
   };
 
   return (
-    <nav className="bg-white px-2 sm:px-4 py-2.5 dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600 h-20 shadow-md dark:shadow-md">
+    <nav className="bg-white px-2 sm:px-4 py-3 dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-t-4 border-brown-200 dark:border-gray-600 h-25 shadow-md dark:shadow-md">
       <div className="container flex flex-wrap items-center justify-between mx-auto">
         <div>
           <Link className="flex items-center" href="/#Hero" scroll={false}>
             <Image
               src={LogoIcon}
               alt="Wadaf Mining Logo"
-              className="mr-2"
-              width={100}
+              className="mr-2  bg-white rounded-xl"
+              width={150}
               height={30}
               priority
             />
@@ -89,7 +89,7 @@ function Navbar() {
           <Menu as="div" className="relative inline-block text-left ml-1">
             <div>
               <Menu.Button className="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
-                <span className="sr-only">Open main menu</span>
+                {/* <span className="sr-only">Open main menu</span> */}
                 <svg
                   className="w-6 h-6"
                   aria-hidden="true"
@@ -119,9 +119,9 @@ function Navbar() {
                   <Menu.Item>
                     {({ active }) => (
                       <button 
-                        // className={`${
-                        //   active ? "bg-violet-500 text-white" : "text-gray-900"
-                        // } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
+                        className={`${
+                          active ? "bg-brown-300 text-white" : "text-gray-900"
+                        } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
                       >
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -137,17 +137,7 @@ function Navbar() {
                             d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"
                           />
                         </svg>                                                
-                        <Link href="/#Hero" scroll={false}>Home2</Link>
-
-                        {/* <Link
-                          href="#Hero"
-                          scroll={false}
-                        >
-                          Home3
-                        </Link> */}
-
-
-
+                        <Link href="/#Hero" scroll={false}>Home</Link>
                       </button>
                     )}
                   </Menu.Item>
@@ -155,11 +145,11 @@ function Navbar() {
                     {({ active }) => (
                       <button
                         className={`${
-                          active ? "bg-violet-500 text-white" : "text-gray-900"
+                          active ? "bg-brown-300 text-white" : "text-gray-900"
                         } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
                       >
                         <Link href="/#Services" scroll={false}>
-                          Services2
+                          Services
                         </Link>
                       </button>
                     )}
@@ -168,12 +158,12 @@ function Navbar() {
                     {({ active }) => (
                       <button
                         className={`${
-                          active ? "bg-violet-500 text-white" : "text-gray-900"
+                          active ? "bg-brown-300 text-white" : "text-gray-900"
                         } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
                       >
                         <Link href="/#Products" 
                             scroll={false}>
-                          Products2
+                          Products
                         </Link>
                       </button>
                     )}
@@ -182,11 +172,11 @@ function Navbar() {
                     {({ active }) => (
                       <button
                         className={`${
-                          active ? "bg-violet-500 text-white" : "text-gray-900"
+                          active ? "bg-brown-300 text-white" : "text-gray-900"
                         } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
                       >
                         <Link href="/about" scroll={false}>
-                          About Us2
+                          About Us
                         </Link>
                       </button>
                     )}
@@ -197,11 +187,11 @@ function Navbar() {
                     {({ active }) => (
                       <button
                         className={`${
-                          active ? "bg-violet-500 text-white" : "text-gray-900"
+                          active ? "bg-brown-300 text-white" : "text-gray-900"
                         } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
                       >
                         <Link href="/#Contact" scroll={false}>
-                          Contact Us2
+                          Contact Us
                         </Link>
                       </button>
                     )}
@@ -217,9 +207,9 @@ function Navbar() {
               <Link
                 href="/#Hero"
                 className={
-                  "block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-100 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent" +
+                  "block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 hover:text-gol md:hover:bg-transparent md:border-0 md:hover:text-brown-300   md:p-0 dark:text-gray-100 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent" +
                   (asPath === "/#Hero"
-                    ? " bg-blue-700 text-white md:bg-transparent md:text-blue-700 md:dark:text-white dark:bg-blue-600 md:dark:bg-transparent"
+                    ? " bg-blue-700 text-white md:bg-transparent md:text-brown-300 md:underline  md:dark:text-white  dark:bg-blue-600 md:dark:bg-transparent"
                     : "")
                 }
                 scroll={false}
@@ -232,9 +222,9 @@ function Navbar() {
                 href="/#Services"
                 scroll={false}
                 className={
-                  "block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-100 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent" +
+                  "block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-brown-300 md:p-0 dark:text-gray-100 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent" +
                   (asPath === "/#Services"
-                    ? " bg-blue-700 text-white md:bg-transparent md:text-blue-700 md:dark:text-white dark:bg-blue-600 md:dark:bg-transparent"
+                    ? " bg-blue-700 text-white md:bg-transparent md:text-brown-300 md:underline  md:dark:text-white dark:bg-blue-600 md:dark:bg-transparent"
                     : "")
                 }
               >
@@ -246,9 +236,9 @@ function Navbar() {
                 href="/#Products"
                 scroll={false}
                 className={
-                  "block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-100 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent" +
+                  "block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-brown-300 md:p-0 dark:text-gray-100 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent" +
                   (asPath === "/#Products"
-                    ? " bg-blue-700 text-white md:bg-transparent md:text-blue-700 md:dark:text-white dark:bg-blue-600 md:dark:bg-transparent"
+                    ? " bg-blue-700 text-white md:bg-transparent md:text-brown-300 md:underline md:dark:text-white dark:bg-blue-600 md:dark:bg-transparent"
                     : "")
                 }
               >
@@ -261,9 +251,9 @@ function Navbar() {
                 href="/about"
                 scroll={false}
                 className={
-                  "block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-100 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent" +
+                  "block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-brown-300 md:p-0 dark:text-gray-100 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent" +
                   (asPath === "/about"
-                    ? " bg-blue-700 text-white md:bg-transparent md:text-blue-700 md:dark:text-white dark:bg-blue-600 md:dark:bg-transparent"
+                    ? " bg-blue-700 text-white md:bg-transparent md:text-brown-300 md:underline md:dark:text-white dark:bg-blue-600 md:dark:bg-transparent"
                     : "")
                 }
               >

@@ -13,12 +13,12 @@ export default function Home() {
     <>
       <Head>
         <title>
-          {/* Wadaf Ethiopia Mining PLC  */}
+          Wadaf Ethiopia Mining PLC 
         </title>
         <meta
           name="description"
           content="
-          Wadaf Mining is an ethiopian mining company that specializes in the extraction and production of copper, gold, and silver."
+          Wadaf Ethiopia Mining PLC is an ethiopian mining company that specializes in the extraction and production of copper, gold, and silver."
         />
         <meta
           name="keywords"
@@ -29,11 +29,11 @@ export default function Home() {
         {/*<!-- Google / Search Engine Tags -->*/}
         <meta
           name="name"
-          content="Wadaf Mining Providing a Sustainable Future for the Mining Industry."
+          content="Wadaf Ethiopia Mining PLC is Providing a Sustainable Future for the Mining Industry."
         />
         <meta
           name="description"
-          content="Wadaf Mining is an ethiopian mining company that specializes in the extraction and production of copper, gold, and silver."
+          content="Wadaf Ethiopia Mining PLC is an ethiopian mining company that specializes in the extraction and production of copper, gold, and silver."
         />
         <meta
           name="image"
@@ -76,7 +76,7 @@ export default function Home() {
         <meta name="twitter:card" content="Wadaf Mining PLC" />
         {/*<!-- Twitter Meta Tags -->*/}
         {/* <link rel="icon" href="/favicon.ico" /> */}
-        <link rel="icon" href="/Logo.png" />
+        {/* <link rel="icon" href="/Logo.png" /> */}
         {/* <link rel="icon" href="../assets/icons/Logo.png" /> */}
         
       </Head>
