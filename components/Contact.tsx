@@ -162,7 +162,7 @@ const Contact = () => {
                 <div>
                   <button
                     type="submit"
-                    className="bg-eternity-600 border-primary w-1/3 rounded-xl p-3 text-white transition hover:bg-opacity-90"
+                    className="bg-eternity-600 border-primary w-2/3 rounded-xl p-3 text-white transition hover:bg-opacity-90"
                     onClick={onSubmitHandler}
                   >
                     Send Message
