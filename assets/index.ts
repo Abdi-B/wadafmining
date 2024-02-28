@@ -63,11 +63,11 @@ export {
   LogoIcon,
   // teams
 
-  MickiyasYesus,
-  GemedaWorku,
-  SamuelHagos,
-  SeamsewYilma,
-  WendemagegneTsegaye,
+  // MickiyasYesus,
+  // GemedaWorku,
+  // SamuelHagos,
+  // SeamsewYilma,
+  // WendemagegneTsegaye,
   // services images
   DigIcon,
   CartIcon,
