@@ -62,8 +62,7 @@ import ProductIcon from "./icons/Product2.svg";
 export {
   LogoIcon,
   // teams
-  AbdiAbdulshukur,
-  MengestuAraya,
+
   MickiyasYesus,
   GemedaWorku,
   SamuelHagos,
