@@ -1,13 +1,13 @@
 import LogoIcon from "./icons/Logo.png";
 
 // Teams images
-import AbdiAbdulshukur from "./images/AbdiAbdulshukur.webp";
+// import AbdiAbdulshukur from "./images/AbdiAbdulshukur.webp";
 import MengestuAraya from "./images/MengestuAraya.webp";
 import MickiyasYesus from "./images/MickiyasYesus.webp";
 import GemedaWorku from "./images/GemedaWorku.webp";
 import SamuelHagos from "./images/SamuelHagos.webp";
-import SeamsewYilma from "./images/SeamsewYilma.webp";
-import WendemagegneTsegaye from "./images/WendemagegneTsegaye.webp";
+// import SeamsewYilma from "./images/SeamsewYilma.webp";
+// import WendemagegneTsegaye from "./images/WendemagegneTsegaye.webp";
 import ServiceImage from "./images/service.jpg";
 import ClawIcon from "./icons/claw.svg";
 
