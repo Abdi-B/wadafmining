@@ -7,6 +7,7 @@ import { useRouter } from "next/router";
 
 import { LogoIcon } from "../assets";
 
+
 function Navbar() {
   const { systemTheme, theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
