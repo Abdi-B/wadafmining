@@ -4,6 +4,7 @@ import Link from "next/link";
 
 import { partners } from "./constants";
 
+
 const Partners = () => {
   return (
     <div className="flex flex-row lg:flex-wrap md:overflow-auto sm:overflow-auto overflow-auto items-center lg:justify-center md:justify-center">
