@@ -6,6 +6,7 @@ import { ourProducts, productQuestions, services2 } from "./constants";
 import { ServiceImage } from "../assets";
 import Accordion from "./Accordion";
 
+
 const Products = () => {
   const carousel = useRef(null);
   const [width, setWidth] = useState<Number>(0);
